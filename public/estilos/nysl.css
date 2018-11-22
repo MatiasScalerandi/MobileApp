@@ -1,0 +1,83 @@
+.img_home {
+    		background-image: url(imagen/F52.png);
+			
+	        background-size: 100%;
+
+   
+
+																	}
+
+.nav_position {
+				margin-top: 208px;
+				padding: 0;
+									}
+
+h1{ 
+		font-size: 50px;
+		color: red;
+		background: blue;
+		text-align: center;
+	
+                        	}
+
+.logo{
+		  left: 600px;
+		  top: 30px;
+		 width: 100px;
+			 height: 100px;
+                              }
+
+.bg-grana{
+			background-color: #e60000;
+										}
+
+.col_red_1 {
+		     height: 200vh;
+	
+								}
+
+.information{
+				width: calc(100% * 4);
+				height: 100%;
+				position: absolute;
+				z-index: 1;
+                                         }
+
+.transparente {
+				background-color: rgba(255, 255, 255, .7);
+															}
+
+.bg-blue{
+			background-color: darkblue;
+										}
+
+.bg-yellow{
+			background-color: yellow;
+										}
+
+@media only screen and (orientation: landscape){
+	.img_home{
+		    background-image: url(imagen/san-lorenzo.png);
+		background-size: 100px;
+	
+		
+		
+		 
+
+	}
+}
+
+.position{
+			position: absolute;
+			top: 50%;
+			right: 15%;
+			z-index: 1;
+								}
+
+#pages > div {  display: none;  }
+
+
+
+
+#pages > div.current {  display: block;  }
+
